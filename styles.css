@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0D0D0D;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #0D0D0D;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: opacity 0.3s;
+}
+
+nav a:hover {
+  opacity: 0.7;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+#about{
+    padding: 60px 40px;
+}
+
+#about h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text-left,
+.about-text-right {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+}
+
+.about-image {
+    flex-shrink: 0;
+}
+.about-image img {
+    width: 200px;
+    height: auto;
+}
