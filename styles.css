@@ -208,5 +208,27 @@ footer {
 
 header > h1 {
     transition: 0.3s ease;
-    
+    cursor: pointer;
+}
+
+header > h1:hover {
+    transform: scale(1.4);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F2E852;
+  border: 3px solid #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+  cursor: pointer;
 }
