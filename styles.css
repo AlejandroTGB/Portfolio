@@ -19,6 +19,7 @@ body {
   line-height: 1.6;
 }
 
+/*Estructura principal*/
 header {
   background-color: #0D0D0D;
   color: white;
@@ -67,8 +68,13 @@ footer {
   text-align: center;
   padding: 20px;
   color: white;
+
+.return-top {
+    color: #F2E852;
+}
 }
 
+/*hero*/
 .hero {
   background: url('img/estrellas.gif') repeat;
   background-size: 250px auto;
@@ -94,11 +100,13 @@ footer {
 .btn-hero {
     color: #F2E852;
 }
-#about{
+
+/*sobre mi*/
+#about {
     padding: 60px 40px;
 }
 
-#about h2{
+#about h2 {
     text-align: center;
     font-size: 32px;
     margin-bottom: 40px;
@@ -125,11 +133,13 @@ footer {
 .about-image {
     flex-shrink: 0;
 }
+
 .about-image img {
     width: 300px;
     height: auto;
 }
 
+/*proyectos*/
 #projects {
   padding: 60px 40px;
 }
@@ -214,33 +224,7 @@ footer {
   object-fit: cover;
 }
 
-header > h1 {
-    transition: 0.3s ease;
-    cursor: pointer;
-}
-
-header > h1:hover {
-    transform: scale(1.4);
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #000;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #F2E852;
-  border: 3px solid #000;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #fff;
-  cursor: pointer;
-}
-
+/*contacto*/
 #contact {
   padding: 60px 40px;
   text-align: center;
@@ -295,7 +279,35 @@ header > h1:hover {
   transition: transform 0.3s ease;
 }
 
+/*estilos*/
+header > h1 {
+    transition: 0.3s ease;
+    cursor: pointer;
+}
 
+header > h1:hover {
+    transform: scale(1.4);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F2E852;
+  border: 3px solid #000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+  cursor: pointer;
+}
+
+/*intento de responsive xd*/
 @media (max-width: 768px) {
 
   body {
