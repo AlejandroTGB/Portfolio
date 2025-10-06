@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -288,4 +293,34 @@ header > h1:hover {
 .contact-item:hover .contact-icon-img {
   transform: scale(1.1);
   transition: transform 0.3s ease;
+}
+
+
+@media (max-width: 768px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  #about, #projects, #contact {
+    padding: 40px 20px;
+  }
+
+  .project-links {
+    flex-direction: column;
+  }
+
 }
